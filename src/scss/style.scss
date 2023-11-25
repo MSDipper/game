@@ -1,0 +1,11 @@
+//* Default
+@import './fonts';
+@import './reset/default.scss';
+@import './reset/reset';
+
+//? Blocks
+@import './block/header';
+@import './block/sponsors';
+@import './block/posts';
+
+@import './block/footer';

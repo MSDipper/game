@@ -1,0 +1,36 @@
+:root {
+    --light: #FFF;
+    --primary: #57B8FF;
+    --greyText: #80858F;
+    --black: #000;
+    --current: #FAC422;
+    --bgSponors: #FDD04A;
+    --fire: #FE691E;
+    --desc: #555;
+    --blockBg: rgba(255, 255, 255, 0.15);
+    --blockText: rgba(223, 223, 223, 0.80);
+}
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--light);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 15px 0;
+}
