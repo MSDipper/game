@@ -151,28 +151,3 @@
     }
 }
 
-
-.button {
-    padding: 21px 34px;
-    background-color: var(--primary);
-    transition: all .3s ease-in;
-
-    &:active {
-        background-color: #2d9ae8;
-        transform: translate(0px, 3px);
-    }
-}
-
-.title__link {
-    display: flex;
-    align-items: center;
-    color: var(--primary);
-    column-gap: 10px;
-    text-transform: uppercase;
-    padding-bottom: 14px;
-    transition: color .3s ease-in;
-
-    &:hover {
-        color: var(--fire);
-    }
-}

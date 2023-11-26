@@ -10,6 +10,8 @@
     --blockBg: rgba(255, 255, 255, 0.15);
     --blockText: rgba(223, 223, 223, 0.80);
     --shadow: #ffffff64;
+    --customBg: #2A313C;
+    --arrowSlider: #3F8CFF;
 }
 
 body {
@@ -33,4 +35,41 @@ h6 {
     max-width: 1350px;
     margin: 0 auto;
     padding: 15px 0;
+}
+
+.title {
+    font-size: 48px;
+    line-height: 58px;
+}
+
+.text {
+    color: var(--desc);
+    font-size: 16px;
+    text-align: center;
+}
+
+
+.button {
+    padding: 21px 34px;
+    background-color: var(--primary);
+    transition: all .3s ease-in;
+
+    &:active {
+        background-color: #2d9ae8;
+        transform: translate(0px, 3px);
+    }
+}
+
+.title__link {
+    display: flex;
+    align-items: center;
+    color: var(--primary);
+    column-gap: 10px;
+    text-transform: uppercase;
+    padding-bottom: 14px;
+    transition: color .3s ease-in;
+
+    &:hover {
+        color: var(--fire);
+    }
 }
