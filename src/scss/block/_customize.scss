@@ -72,6 +72,16 @@
     }
 }
 
+.customize__bg-img {
+    width: 596px;
+    height: 695px;
+}
+
+.slider-img {
+    width: 174px;
+    height: 102px;
+}
+
 @media screen and (max-width: 1024px) {
     .customize {
         &__inner {
@@ -90,15 +100,12 @@
         justify-content: center;
     }
 
-    .title__link {
+    .title__link-custom {
         justify-content: center;
 
     }
 }
-__bg-img {
-    max-width: 300px;
-    max-height: 300px;
-}
+
 
 @media screen and (max-width: 426px) {
     .customize {

@@ -91,9 +91,9 @@
         display: flex;
         padding-top: 86px;
         justify-content: space-between;
-        column-gap: 100px;
+        column-gap: 70px;
         position: relative;
-        z-index: 5;
+        z-index: 1;
     }
 
     &__content-title {
@@ -150,12 +150,20 @@
     &__bg {
         position: relative;
         z-index: 1;
-        max-width: 660px;
-        max-height: 518px;
+
+
+        img {
+            max-width: 660px;
+            max-height: 518px;
+        }
     }
 }
 
 @media screen and (max-width: 768px) {
+    .header_blue {
+        justify-content: center;
+    }
+
     .header {
         height: 212vh;
 
@@ -192,6 +200,11 @@
 
         &__btn {
             display: inline-block;
+        }
+
+        &__content-btn {
+            justify-content: center;
+
         }
 
         .menu-burger__header {
@@ -273,11 +286,12 @@
 @media screen and (max-width: 375px) {
     .header {
         &__content-title {
-font-size: 50px;
+            font-size: 50px;
         }
+
         &__content-btn {
             gap: 40px;
-    flex-direction: column;
+            flex-direction: column;
         }
     }
 }

@@ -33,11 +33,18 @@
                     line-height: 46px;
 
                 }
+
+                img {
+                    width: 648px;
+                    height: 348px;
+                }
             }
         }
 
         &__image {
             padding-bottom: 54px;
+            width: 312px;
+            height: 189px;
         }
 
         &__date {
@@ -53,7 +60,7 @@
             line-height: 34px;
             transition: color .3s ease-in-out;
             cursor: pointer;
-                                
+
             &:hover {
                 color: var(--primary);
             }
@@ -93,9 +100,11 @@
             flex-direction: column;
             row-gap: 40px;
         }
+
         &__content-button {
             align-self: center;
         }
+
         &__link {
             padding-bottom: 0;
         }
