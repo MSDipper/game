@@ -1,7 +1,7 @@
 .header {
     background-color: var(--black);
     width: 100%;
-    height: 100vh;
+    height: 110vh;
 
     &::after {
         content: '';
@@ -10,6 +10,7 @@
         top: 0;
         bottom: 0;
         width: 33%;
+        height: 110vh;
         background-color: var(--primary);
     }
 
@@ -113,12 +114,11 @@
         column-gap: 40px;
     }
 
-    &__btn-bg {
-
-    }
+    &__btn-bg {}
 
     &__btn-transparent {
         transition: color .3s ease-in;
+        background-color: transparent;
 
         &:hover {
             color: var(--primary);
@@ -148,6 +148,7 @@
     &__bg {
         position: relative;
         z-index: 1;
+        min-width: 660px;
+        min-height: 518px;
     }
 }
-

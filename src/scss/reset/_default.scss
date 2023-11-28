@@ -12,6 +12,9 @@
     --shadow: #ffffff64;
     --customBg: #2A313C;
     --arrowSlider: #3F8CFF;
+    --footerBg: #222730;
+    --footerText: #999;
+    --footerIconBg: #383D45;
 }
 
 body {
@@ -34,7 +37,7 @@ h6 {
 .container {
     max-width: 1350px;
     margin: 0 auto;
-    padding: 15px 0;
+    padding: 0 15px;
 }
 
 .title {
