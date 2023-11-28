@@ -42,7 +42,7 @@
     cursor: pointer;
     border-radius: 20px;
     background-color: var(--blockBg);
-    min-width: 550px;
+    max-width: 550px;
     position: relative;
 
     &__icon {

@@ -6,8 +6,6 @@
         column-gap: 128px;
     }
 
-    &__bg {}
-
     &__bg-img {
         max-width: 596px;
         height: 695px;
@@ -25,18 +23,7 @@
         padding-bottom: 54px;
     }
 
-    &__btn-bg {}
 }
-
-.container {}
-
-.title {
-    &__link {}
-}
-
-.desc {}
-
-.button {}
 
 .slider {
     position: relative;
@@ -81,6 +68,43 @@
 
         &:active {
             background-color: #2d9ae8;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .customize {
+        &__inner {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__content {
+            text-align: center;
+            padding-bottom: 40px;
+        }
+    }
+
+    .slider {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .title__link {
+        justify-content: center;
+
+    }
+}
+__bg-img {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+@media screen and (max-width: 426px) {
+    .customize {
+        &__bg-img {
+            max-width: 300px;
+            max-height: 300px;
         }
     }
 }

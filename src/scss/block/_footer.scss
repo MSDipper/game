@@ -40,8 +40,6 @@
         row-gap: 37px;
     }
 
-    &__item {}
-
     &__item-link {
         transition: color .3s ease-in;
 
@@ -76,9 +74,10 @@
 
     &__list-icons {
         display: flex;
-        column-gap: 23px;
+        gap: 23px;
         color: var(--footerText);
         fill: var(--footerText);
+        flex-wrap: wrap;
     }
 
     &__icon {
@@ -117,4 +116,23 @@
     }
 }
 
-.container {}
+@media screen and (max-width:768px) {
+    .footer {
+        &__content {
+            column-gap: 55px;
+        }
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .footer {
+        &__content {
+            flex-wrap: wrap;
+            flex-wrap: wrap;
+            row-gap: 40px;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+    }
+}

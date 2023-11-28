@@ -13,8 +13,6 @@
 
     }
 
-    &__title {}
-
     &__desc {
         max-width: 550px;
         color: var(--desc);
@@ -28,6 +26,12 @@
         align-items: center;
         justify-content: center;
         transition: all .3s ease-in;
+        flex-wrap: wrap;
+
+        img {
+            max-width: 193px;
+            max-height: 89px;
+        }
 
         img:hover {
             border-radius: 10px;
@@ -36,3 +40,11 @@
     }
 }
 
+
+@media screen and (max-width:768px) {
+    .sponsors {
+        &__title {
+            text-align: center;
+        }
+    }
+}

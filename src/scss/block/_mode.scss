@@ -18,11 +18,45 @@
         align-items: center;
         justify-content: center;
         transition: filter .3s ease-in-out;
+        text-align: center;
 
         &:hover {
             filter: brightness(2);
         }
     }
 
-    &__title {}
+    &__content-img {
+        max-width: 128px;
+        max-height: 128px;
+    }
+
+    &__title {
+        font-size: 48px;
+        line-height: 58px;
+    }
+}
+
+@media screen and (max-width:426px) {
+    .mode {
+        &__content-img {
+            max-width: 108px;
+            max-height: 108px;
+        }
+        &__title {
+            font-size: 22px;
+            line-height: 58px;
+        }
+    }
+}
+
+@media screen and (max-width:320px) {
+    .mode {
+        &__content-img {
+            max-width: 88px;
+            max-height: 88px;
+        }
+        &__title {
+            font-size: 18px;
+        }
+    }
 }
